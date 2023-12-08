@@ -20,3 +20,6 @@ jobs:
 
     - name: Run Cypress Tests
       run: npx cypress run --browser chrome
+
+    - name: Run Cypress Tests
+      run: npx cypress run --browser firefox  
