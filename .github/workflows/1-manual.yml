@@ -23,3 +23,6 @@ jobs:
 
     - name: Run Cypress Tests
       run: npx cypress run --browser firefox  
+
+    - name: Run Cypress Tests
+      run: npx cypress run --browser electron  
